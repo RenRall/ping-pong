@@ -9,19 +9,23 @@
   </head>
   <body>
     <div class="container">
-      <h1>How about a game of Ping-Pong?</h1>
-
-      <form id="ping-pongform">
+      <div class="jumbotron">
+        <h1>Ping-Pong Anyone?</h1>
+      </div>
+      <h4>Here are some exceptions to the Ping-Pong rules: </h4>
+      <ol>
+        <li> A number divisible by 3 will get you "ping."</li>
+        <li> A number divisible by 5 will get you "pong."</li>
+        <li> A number divisible by 15 will get you "ping-pong."</li>
+      </ol>
+      <form id="ping-pong">
         <div class="form-group">
-          <label for="userinput">You go first. Enter a number:</label>
+          <label for="userinput">Your turn. Enter a number greater than zero:</label>
           <input id="userinput" type="number">
         </div>
         <button type="submit" class="btn">Ping! Pong!</button>
       </form>
-
       <div id="result">
-      </div>
-      <div id="warning">
       </div>
     </div>
   </body>
