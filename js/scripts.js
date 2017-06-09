@@ -4,7 +4,7 @@
 // User Logic:
 
 $(document).ready(function() {
-  $("form#ping-pong").submit(function(event) {
+  $("form#pingpong").submit(function(event) {
     event.preventDefault();
     var userinput = parseInt($("input#userinput").val());
     // var ping = (userinput / 3);
@@ -18,6 +18,7 @@ $(document).ready(function() {
 
     if (userinput <= 0) {
       $("#result").show();
+      else if (operator === "divide")
     } else if ("userinput" / 3) {
       $("#ping").show();
     //   // console.log (userinput)
