@@ -3,17 +3,26 @@
 
 // User Logic:
 $(document).ready(function() {
-  $("form#submissionform").submit(function(event) {
+  $("form#ping-pongform").submit(function(event) {
     event.preventDefault();
     var userinput = parseInt($("input#userinput").val());
-
-    $ ("#result").show();
 
     if (userinput <= 0) {
       comment = "Number must be greater than zero."
       $("#result").hide()
-      console.log (userinput)
+      // console.log (userinput)
+    } else if (userinput / 3) {
+      result = result + "ping"
+    } else if (userinput / 5) {
+      result = result + "pong"
+    } else if (userinput / 15) {
+      result = result + "ping-pong"
     }
+    // else if (userinput >= 1) {
+    //   $("result").show()
+      // console.log(userinput)
+  });
+});
 
 
 
@@ -26,4 +35,4 @@ $(document).ready(function() {
     //
     // if (userinput / 3 || userinput / 5 || userinput / 15) {
 
-    }
+    // }
