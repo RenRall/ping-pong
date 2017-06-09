@@ -17,6 +17,28 @@ Commit often.
 {Project can be located at: Rena's github}
 
 Specs (UPDATE!!!!!)
+It can count up to the user input number.
+  - Input: 2
+  - Output: [1,2]
+It will return the word "ping" when the user input number is divisible by 3.
+  - Input: 9
+  - Output: true
+It will return the word "pong" when the user input number is divisible by 5.
+ - Input: 25
+ - Output: true
+It will return the phrase "ping-pong" when the user input is divisible by 15.
+  - Input: 30
+  - Output: true
+It will return the user input number if the number is divisible by 3, 5, or 15.
+ - Input: 15
+ - Output: false
+
+
+
+
+
+
+
 
 
 must reject numbers above 3999
