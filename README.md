@@ -21,18 +21,16 @@ Specifications:
 1. It can count up to the user input number.
   - Input: 2
   - Output: [1,2]
-2. It will return the word "ping" when the user input number is divisible by 3.
-  - Input: 9
-  - Output: true
-3. It will return the word "pong" when the user input number is divisible by 5.
- - Input: 25
- - Output: true
-4. It will return the phrase "ping-pong" when the user input is divisible by 15.
-  - Input: 30
-  - Output: true
-5. It will return the user input number if the number is divisible by 3, 5, or 15.
- - Input: 15
- - Output: false
+2. It will return the word "ping" when the current output number is divisible by 3.
+  - Input: 3
+  - Output: [1, 2, ping]
+3. It will return the word "pong" when the current output number is divisible by 5.
+ - Input: 5
+ - Output: [1, 2, ping, 4, pong]
+4. It will return the phrase "ping-pong" when the current output number is divisible by 15.
+  - Input: 15
+  - Output: [1, 2, ping, 4, pong, 6, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong]
+
 
  {Known Bugs: Console log indicates no syntax errors, however, user input will not display. Continue adding specs once first spec issue is resolved.}
 
