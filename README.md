@@ -1,21 +1,22 @@
 Ping-Pong
 
-Input a number to play the table game of Ping-Pong, June 8, 2017
+Learn math while having fun playing the game Ping-Pong, June 8, 2017
 
 By Rena Rallis
 
-Description
+##Description:
 
-{This page is a digital version of the game ping-pong.}
+{This page is an interactive site making math fun for the user via the game ping-pong. The user inputs a number into a form and the application returns a list indicating which numbers are divisible by 3, 5, 15. The user learns basic math while playing the game ping-pong.}
 
-Setup/Installation Requirements
+##Setup/Installation Requirements:
 
+Clone project from GitHub.
 Launch project in atom to update and/or modify data.
 Download Bootstrap as well as jQuery.
 Open index.html in a preferred browser.
 Commit often.
 
-{Project can be also located at Rena's github: <a>https://github.com/RenRall/ping-pong.git</a>}
+{Project can be also located at: <a href="https://github.com/RenRall/ping-pong.git">Rena's GitHub</a>}
 
 Specifications:
 1. It can count up to the user input number.
