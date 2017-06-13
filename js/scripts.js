@@ -5,9 +5,9 @@
 $(document).ready(function() {
   $("form#pingpong").submit(function(event) {
     event.preventDefault();
-    var userinput = parseInt($("input#userinput").val());
+    var userInput = parseInt($("input#userInput").val());
 
-    for (i = 1; i <= userinput; i += 1) {
+    for (i = 1; i <= userInput; i += 1) {
       var output = i;
       if (i % 3 === 0) {
         // if divisible by 3 output ping
