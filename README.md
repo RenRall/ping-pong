@@ -1,4 +1,4 @@
-Ping-Pong
+**Ping-Pong**
 
 Learn math while having fun playing the game Ping-Pong, June 8, 2017
 
@@ -10,15 +10,15 @@ By Rena Rallis
 
 ##Setup/Installation Requirements:
 
-Clone project from GitHub.
-Launch project in atom to update and/or modify data.
-Download Bootstrap as well as jQuery.
-Open index.html in a preferred browser.
-Commit often.
+- Copy URL from GitHub repository.
+- Open terminal then:
+    - $ git clone https://github.com/RenRall/ping-pong
+    - $ cd ping-pong
+    - $ open index.html
+- Download Bootstrap.
+- Download jQuery.
 
-{Project can be also located at: <a href="https://github.com/RenRall/ping-pong.git">Rena's GitHub</a>}
-
-Specifications:
+##Specifications:
 1. It can count up to the user input number.
   - Input: 2
   - Output: [1,2]
@@ -31,10 +31,6 @@ Specifications:
 4. It will return the phrase "ping-pong" when the current output number is divisible by 15.
   - Input: 15
   - Output: [1, 2, ping, 4, pong, 6, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong]
-
-
- {Known Bugs: Console log indicates no syntax errors, however, user input will not display. Continue adding specs once first spec issue is resolved.}
-
 
 _For further information or error reporting send messages to mailto:renarallis@msn.com _
 
