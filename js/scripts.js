@@ -4,14 +4,14 @@ function processPingPong(theNumber) {
   if (theNumber % 15 === 0) {
     // if divisible by 15 output pong
     output = "ping-pong";
-  }   else if (theNumber % 3 === 0) {
+  } else if (theNumber % 3 === 0) {
     // if divisible by 3 output ping
     output = "ping";
-  }  else if (theNumber % 5 === 0) {
+  } else if (theNumber % 5 === 0) {
     // if divisible by 5 output pong
     output = "pong";
   }
-  return output;
+    return output;
 };
 
 // User Logic:
