@@ -1,17 +1,17 @@
 // Business logic:
 function processPingPong(theNumber) {
   var output = theNumber;
-  if (theNumber % 3 === 0) {
-    // if divisible by 3 output ping
-    output = "ping";
-  }
-  if (theNumber % 5 === 0) {
-    // if divisible by 5 output pong
-    output = "pong";
-  }
   if (theNumber % 15 === 0) {
     // if divisible by 15 output pong
     output = "ping-pong";
+  }
+  else if (theNumber % 5 === 0) {
+    // if divisible by 3 output ping
+    output = "pong";
+  }
+  else if (theNumber % 3 === 0) {
+    // if divisible by 5 output pong
+    output = "ping";
   }
   return output;
 };
@@ -19,6 +19,7 @@ function processPingPong(theNumber) {
 // User Logic:
 $(document).ready(function() {
   $("form#pingpong").submit(function(event) {
+    $("ul#result").empty();
     event.preventDefault();
 
     var userInput = parseInt($("input#user-input").val());
