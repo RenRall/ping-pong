@@ -5,13 +5,13 @@ function processPingPong(theNumber) {
     // if divisible by 15 output pong
     output = "ping-pong";
   }
-  else if (theNumber % 5 === 0) {
-    // if divisible by 3 output ping
-    output = "pong";
-  }
   else if (theNumber % 3 === 0) {
-    // if divisible by 5 output pong
+    // if divisible by 3 output ping
     output = "ping";
+  }
+  else if (theNumber % 5 === 0) {
+    // if divisible by 5 output pong
+    output = "pong";
   }
   return output;
 };
